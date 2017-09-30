@@ -141,9 +141,9 @@ Pod::Spec.new do |s|
 #  pod 'AMapLocation-NO-IDFA'
 #  pod 'AMapSearch-NO-IDFA'
 #  pod 'AMap2DMap-NO-IDFA'
-  s.dependency "MJRefresh","~> 1.4.6"
-  s.dependency "AMapLocation-NO-IDFA"
-  s.dependency "AMapSearch-NO-IDFA"
-  s.dependency "AMap2DMap-NO-IDFA"
+#  s.dependency "MJRefresh","~> 1.4.6"
+#  s.dependency "AMapLocation-NO-IDFA"
+#  s.dependency "AMapSearch-NO-IDFA"
+#  s.dependency "AMap2DMap-NO-IDFA"
 
 end

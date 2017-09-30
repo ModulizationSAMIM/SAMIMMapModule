@@ -9,9 +9,9 @@ target 'SAMIMMapModule' do
     # use_frameworks!
 #    pod "SAMIMCircleAlbumModule_Category", :path => "../SAMIMCircleAlbumModule_Category"
 
-    #高德地图相关SDK（无IDFA版）
-    pod 'AMapLocation-NO-IDFA'
-    pod 'AMapSearch-NO-IDFA'
-    pod 'AMap2DMap-NO-IDFA'
-    pod 'MJRefresh','~> 1.4.6'
+#    #高德地图相关SDK（无IDFA版）
+#    pod 'AMapLocation-NO-IDFA'
+#    pod 'AMapSearch-NO-IDFA'
+#    pod 'AMap2DMap-NO-IDFA'
+#    pod 'MJRefresh','~> 1.4.6'
 end
