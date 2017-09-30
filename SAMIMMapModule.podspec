@@ -117,8 +117,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+    #s.framework  = "SomeFramework"
+  s.frameworks = "UIKit", "MAMapKit", "AMapLocationKit","AMapSearchKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -141,7 +141,7 @@ Pod::Spec.new do |s|
 #  pod 'AMapLocation-NO-IDFA'
 #  pod 'AMapSearch-NO-IDFA'
 #  pod 'AMap2DMap-NO-IDFA'
-#  s.dependency ‘’MJRefresh’,’~> 1.4.6’’
+  s.dependency "MJRefresh","~> 1.4.6"
   s.dependency "AMapLocation-NO-IDFA"
   s.dependency "AMapSearch-NO-IDFA"
   s.dependency "AMap2DMap-NO-IDFA"
