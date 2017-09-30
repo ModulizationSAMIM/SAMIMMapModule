@@ -107,7 +107,9 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-
+  s.resource_bundles = {
+      'SAMIMMapModule' => ['SAMIMMapModule/Assets/*.png']
+  }
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -117,8 +119,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-    #s.framework  = "SomeFramework"
-  s.frameworks = "UIKit", "MAMapKit", "AMapLocationKit","AMapSearchKit"
+  #s.framework  = "SomeFramework"
+  #s.frameworks = "UIKit", "MAMapKit", "AMapLocationKit","AMapSearchKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

@@ -1,1 +1,1 @@
-pod repo push SAMIMPublicPods SAMIMMapModule.podspec --verbose --allow-warnings
+pod repo push SAMIMPublicPods SAMIMMapModule.podspec --verbose --allow-warnings  --use-libraries
