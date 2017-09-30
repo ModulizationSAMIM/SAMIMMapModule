@@ -1,0 +1,7 @@
+SAMIMMapModule.xcodeproj/xcuserdata/
+SAMIMMapModule.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+SAMIMMapModule.xcodeproj/project.xcworkspace/xcuserdata/

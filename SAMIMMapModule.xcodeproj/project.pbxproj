@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22036F1E1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22036F1D1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.m */; };
+		22078BA51F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22078BA41F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.m */; };
 		22418B8F1F7CA707007F66C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418B8E1F7CA707007F66C6 /* AppDelegate.m */; };
 		22418B921F7CA707007F66C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418B911F7CA707007F66C6 /* ViewController.m */; };
 		22418B951F7CA707007F66C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22418B931F7CA707007F66C6 /* Main.storyboard */; };
 		22418B971F7CA707007F66C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22418B961F7CA707007F66C6 /* Assets.xcassets */; };
 		22418B9A1F7CA707007F66C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22418B981F7CA707007F66C6 /* LaunchScreen.storyboard */; };
 		22418B9D1F7CA707007F66C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418B9C1F7CA707007F66C6 /* main.m */; };
+		22418BCF1F7CB756007F66C6 /* Target_SAMIMMapModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418BCE1F7CB756007F66C6 /* Target_SAMIMMapModule.m */; };
+		22418C201F7CD12D007F66C6 /* SAMIMMapModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418BA51F7CA832007F66C6 /* SAMIMMapModuleViewController.m */; };
+		22418C241F7CD28F007F66C6 /* SAMIMLocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418C231F7CD28F007F66C6 /* SAMIMLocationObject.m */; };
+		227D63211F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D63201F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.m */; };
+		22CBA07F1F7E214F00B07830 /* SAMIMLocationPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA07E1F7E214F00B07830 /* SAMIMLocationPoint.m */; };
+		22CBA0821F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA0811F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.m */; };
+		6CAC59C1E6F53A2C7562E92F /* libPods-SAMIMMapModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C8D0F4EBC1BA146090E80F /* libPods-SAMIMMapModule.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22036F1C1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMMapModuleMAMapViewController.h; sourceTree = "<group>"; };
+		22036F1D1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMMapModuleMAMapViewController.m; sourceTree = "<group>"; };
+		22078BA31F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMMapTextTableViewCell.h; sourceTree = "<group>"; };
+		22078BA41F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMMapTextTableViewCell.m; sourceTree = "<group>"; };
 		22418B8A1F7CA707007F66C6 /* SAMIMMapModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMIMMapModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22418B8D1F7CA707007F66C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22418B8E1F7CA707007F66C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +39,21 @@
 		22418B991F7CA707007F66C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22418B9B1F7CA707007F66C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22418B9C1F7CA707007F66C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22418BA41F7CA831007F66C6 /* SAMIMMapModuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMMapModuleViewController.h; sourceTree = "<group>"; };
+		22418BA51F7CA832007F66C6 /* SAMIMMapModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMMapModuleViewController.m; sourceTree = "<group>"; };
+		22418BCD1F7CB756007F66C6 /* Target_SAMIMMapModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_SAMIMMapModule.h; sourceTree = "<group>"; };
+		22418BCE1F7CB756007F66C6 /* Target_SAMIMMapModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_SAMIMMapModule.m; sourceTree = "<group>"; };
+		22418C221F7CD28F007F66C6 /* SAMIMLocationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMLocationObject.h; sourceTree = "<group>"; };
+		22418C231F7CD28F007F66C6 /* SAMIMLocationObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMLocationObject.m; sourceTree = "<group>"; };
+		227D631F1F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMMapModuleTextViewController.h; sourceTree = "<group>"; };
+		227D63201F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMMapModuleTextViewController.m; sourceTree = "<group>"; };
+		22C8D0F4EBC1BA146090E80F /* libPods-SAMIMMapModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMIMMapModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CBA07D1F7E214E00B07830 /* SAMIMLocationPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMLocationPoint.h; sourceTree = "<group>"; };
+		22CBA07E1F7E214F00B07830 /* SAMIMLocationPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMLocationPoint.m; sourceTree = "<group>"; };
+		22CBA0801F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMIMAMapHalfStyleTableViewCell.h; sourceTree = "<group>"; };
+		22CBA0811F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMIMAMapHalfStyleTableViewCell.m; sourceTree = "<group>"; };
+		26091DCEA053671BB28ECCF7 /* Pods-SAMIMMapModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIMMapModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIMMapModule/Pods-SAMIMMapModule.release.xcconfig"; sourceTree = "<group>"; };
+		8B8E95A8C66179E6C7424BB8 /* Pods-SAMIMMapModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIMMapModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIMMapModule/Pods-SAMIMMapModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CAC59C1E6F53A2C7562E92F /* libPods-SAMIMMapModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22078BA21F7DDF6F00ADFB72 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22078BA31F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.h */,
+				22078BA41F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.m */,
+				22CBA0801F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.h */,
+				22CBA0811F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		22418B811F7CA707007F66C6 = {
 			isa = PBXGroup;
 			children = (
 				22418B8C1F7CA707007F66C6 /* SAMIMMapModule */,
 				22418B8B1F7CA707007F66C6 /* Products */,
+				9FA8BA89743EA3BDE89D5DED /* Pods */,
+				9760E1F32D8358E9DEDFB8C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +100,7 @@
 		22418B8C1F7CA707007F66C6 /* SAMIMMapModule */ = {
 			isa = PBXGroup;
 			children = (
+				22418BA31F7CA816007F66C6 /* SAMIMMapModule */,
 				22418B8D1F7CA707007F66C6 /* AppDelegate.h */,
 				22418B8E1F7CA707007F66C6 /* AppDelegate.m */,
 				22418B901F7CA707007F66C6 /* ViewController.h */,
@@ -71,6 +114,59 @@
 			path = SAMIMMapModule;
 			sourceTree = "<group>";
 		};
+		22418BA31F7CA816007F66C6 /* SAMIMMapModule */ = {
+			isa = PBXGroup;
+			children = (
+				22078BA21F7DDF6F00ADFB72 /* Cell */,
+				22418C211F7CD26C007F66C6 /* Model */,
+				22418BCC1F7CB721007F66C6 /* Targets */,
+				22418BA41F7CA831007F66C6 /* SAMIMMapModuleViewController.h */,
+				22418BA51F7CA832007F66C6 /* SAMIMMapModuleViewController.m */,
+				227D631F1F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.h */,
+				227D63201F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.m */,
+				22036F1C1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.h */,
+				22036F1D1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.m */,
+			);
+			path = SAMIMMapModule;
+			sourceTree = "<group>";
+		};
+		22418BCC1F7CB721007F66C6 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				22418BCD1F7CB756007F66C6 /* Target_SAMIMMapModule.h */,
+				22418BCE1F7CB756007F66C6 /* Target_SAMIMMapModule.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		22418C211F7CD26C007F66C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22418C221F7CD28F007F66C6 /* SAMIMLocationObject.h */,
+				22418C231F7CD28F007F66C6 /* SAMIMLocationObject.m */,
+				22CBA07D1F7E214E00B07830 /* SAMIMLocationPoint.h */,
+				22CBA07E1F7E214F00B07830 /* SAMIMLocationPoint.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9760E1F32D8358E9DEDFB8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C8D0F4EBC1BA146090E80F /* libPods-SAMIMMapModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA8BA89743EA3BDE89D5DED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E95A8C66179E6C7424BB8 /* Pods-SAMIMMapModule.debug.xcconfig */,
+				26091DCEA053671BB28ECCF7 /* Pods-SAMIMMapModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22418BA01F7CA707007F66C6 /* Build configuration list for PBXNativeTarget "SAMIMMapModule" */;
 			buildPhases = (
+				F663F70CC1B347B6B59C452B /* [CP] Check Pods Manifest.lock */,
 				22418B861F7CA707007F66C6 /* Sources */,
 				22418B871F7CA707007F66C6 /* Frameworks */,
 				22418B881F7CA707007F66C6 /* Resources */,
+				7153B806535D47AB9653D0E0 /* [CP] Embed Pods Frameworks */,
+				BD3FF45A5C0224CF17F2D932 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +236,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7153B806535D47AB9653D0E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMIMMapModule/Pods-SAMIMMapModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3FF45A5C0224CF17F2D932 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMIMMapModule/Pods-SAMIMMapModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F663F70CC1B347B6B59C452B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22418B861F7CA707007F66C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22418C201F7CD12D007F66C6 /* SAMIMMapModuleViewController.m in Sources */,
+				22418C241F7CD28F007F66C6 /* SAMIMLocationObject.m in Sources */,
 				22418B921F7CA707007F66C6 /* ViewController.m in Sources */,
+				22078BA51F7DDFA900ADFB72 /* SAMIMMapTextTableViewCell.m in Sources */,
+				22036F1E1F7F536800CEE331 /* SAMIMMapModuleMAMapViewController.m in Sources */,
+				22CBA07F1F7E214F00B07830 /* SAMIMLocationPoint.m in Sources */,
+				22CBA0821F7E226500B07830 /* SAMIMAMapHalfStyleTableViewCell.m in Sources */,
+				227D63211F7CFFF600B49A52 /* SAMIMMapModuleTextViewController.m in Sources */,
 				22418B9D1F7CA707007F66C6 /* main.m in Sources */,
 				22418B8F1F7CA707007F66C6 /* AppDelegate.m in Sources */,
+				22418BCF1F7CB756007F66C6 /* Target_SAMIMMapModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +431,7 @@
 		};
 		22418BA11F7CA707007F66C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8E95A8C66179E6C7424BB8 /* Pods-SAMIMMapModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +446,7 @@
 		};
 		22418BA21F7CA707007F66C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26091DCEA053671BB28ECCF7 /* Pods-SAMIMMapModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
