@@ -236,7 +236,7 @@ static NSIndexPath *signIndexPath = nil;
     if (indexPath.row == signIndexPath.row && indexPath.section == signIndexPath.section) {
         return;
     }
-    AMapAOI *poi = self.dataMArray[indexPath.row];
+    AMapPOI *poi = self.dataMArray[indexPath.row];
     [_mapView setCenterCoordinate:CLLocationCoordinate2DMake(poi.location.latitude, poi.location.longitude) animated:YES];
     
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
